@@ -1,4 +1,5 @@
 import { FaDribbbleSquare, FaFacebookSquare, FaGithubSquare, FaInstagram, FaTwitterSquare } from "react-icons/fa";
+import Typed from "react-typed";
 
 const Footer = () => {
   return (
@@ -51,6 +52,11 @@ const Footer = () => {
             <li className="py-2 text-sm">Terms</li>
           </ul>
         </div>
+      </div>
+      <div className="">
+        <p className="text-gray-400">
+          Code by <Typed strings={["Bintang Ary Wardhana, 2023."]} typeSpeed={60} />
+        </p>
       </div>
     </div>
   );

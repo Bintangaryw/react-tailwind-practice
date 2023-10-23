@@ -7,7 +7,7 @@ const Hero = () => {
         <p className="uppercase text-[#00df9a] font-bold text-2xl md:text-4xl p-2 ">Growing with data analytics</p>
         <h1 className="md:text-6xl text-4xl font-bold p-2">Grow with data.</h1>
         <div>
-          <p className="uppercase font-bold pt-1 text-2xl md:text-4xl ">
+          <p className="uppercase font-bold pt-1 text-xl md:text-4xl ">
             Fast flexible financing for <Typed strings={["BTB", "BTC", "Sass"]} typeSpeed={120} backSpeed={60} loop />
           </p>
         </div>
